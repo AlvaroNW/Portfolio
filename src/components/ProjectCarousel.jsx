@@ -7,7 +7,7 @@ import { BsCodeSlash, BsFillPlayCircleFill } from "react-icons/bs";
 
 function ProjectCarousel() {
     return (
-        <Carousel id="carousel" variant="dark" pause={"hover"}>
+        <Carousel id="carousel" variant="dark" pause={"hover"} >
             <Carousel.Item className="carousel-item" interval={5000}>
                 <img
                     className="d-block w-100"
@@ -36,7 +36,7 @@ function ProjectCarousel() {
                     src="public\Cooking.PNG"
                     alt="Cooking in Style Project"
                 />
-                <Carousel.Caption id="carousel-caption2">
+                <Carousel.Caption id="carousel-caption2" >
                     <h3>Cooking in Style</h3>
                     <p>
                         Cookign in Style is a web Cookbook using Contentful as a CMS system.
