@@ -1,15 +1,27 @@
-import { useState } from 'react'
+import React, { useState } from "react";
 import ProjectCarousel from './components/ProjectCarousel'
+import NavBar from './components/NavBar'
+import { createTheme, ThemeProvider } from "@mui/material/styles";
+import './index.css'
 
-import './App.css'
+
+const theme = createTheme({
+  palette: {
+    primary: {
+      main: "#7B94AB"
+    },
+  },
+});
 
 function App() {
 
 
   return (
-    <>
+    <div id="app-container">
       <nav>
-        Nav
+        <ThemeProvider theme={theme}>
+          <NavBar />
+        </ThemeProvider>
       </nav>
       <main>
         <section>
@@ -24,8 +36,8 @@ function App() {
       <footer>
         Copy
       </footer>
-
-    </>
+    </div>
+  
   )
 }
 

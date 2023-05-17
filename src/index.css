@@ -130,12 +130,19 @@ table {
 
 /* CSS START */
 
+html body {
+    background-color: #9AADBF;
+}
+main {
+    margin-top: 5em;
+}
+
 #carousel {
     max-width: 25rem;
     height: auto;
     margin: auto;
 }
-.carousel-item{
+.carousel-item {
     display: flex;
     margin: 0 auto;
 }
@@ -153,7 +160,7 @@ table {
     transition: background-color 0.3s ease;
 }
 .carousel-button:hover {
-    background-color: rgb(105, 89, 162); 
+    background-color: rgb(105, 89, 162);
 }
 .carousel-buttons {
     display: flex;
@@ -163,7 +170,7 @@ table {
 
 .tech-stack {
     padding: 1em;
-    
+
     border-radius: 10px;
     margin-bottom: 1em;
 }
