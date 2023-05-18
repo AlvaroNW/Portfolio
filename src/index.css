@@ -1,0 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol,
+ul {
+    list-style: none;
+}
+blockquote,
+q {
+    quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* CSS START */
+
+html body {
+    background-color: #9aadbf;
+}
+main {
+    margin-top: 5em;
+}
+article {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.carousels {
+    margin-top: 3em;
+    
+}
+.carousels h3 {
+    text-align: center;
+}
+#carousel {
+    max-width: 22rem;
+    margin: auto;
+}
+.carousel-item {
+    display: flex;
+    margin: 0 auto;
+    
+}
+
+
+.carousel-button {
+    box-sizing: border-box;
+    background-color: #21020384;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1em;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+
+}
+
+.carousel-button:hover {
+    background-color: rgb(105, 89, 162);
+}
+.carousel-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    
+}
+
+.tech-stack {
+    padding: 1em;
+
+    border-radius: 10px;
+    margin-bottom: 1em;
+}
+
+.label {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: #0d0d0d4f;
+    border-radius: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-size: 12px;
+    color: #0a0a0a;
+}
+#carousel-caption1,
+#carousel-caption2 {
+    font-size: 1em;
+    line-height: 1.5;
+    max-width: 80%;
+
+}
