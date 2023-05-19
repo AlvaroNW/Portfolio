@@ -1,5 +1,5 @@
 import Carousel from "react-bootstrap/Carousel";
-import { BsCodeSlash, BsFillPlayCircleFill } from "react-icons/bs";
+import { BsCodeSlash } from "react-icons/bs";
 
 
 
