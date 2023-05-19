@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import DownloadIcon from "@mui/icons-material/Download";
+import Logo from "../assets/Logo.png"
 
 
 
@@ -21,7 +22,7 @@ function Navbar() {
 
 	return (
 		<header>
-			<img src="src/assets/Logo.PNG"></img>
+			<img src={Logo}></img>
 			<nav ref={navRef}>
 				<a href="/#">Projects</a>
 				<a href="/#">Contact</a>
