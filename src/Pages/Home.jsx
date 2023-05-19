@@ -7,10 +7,14 @@ export default function Home() {
         <div>
             <main className="mx-auto">
                 <section>
-                    <div>Profile</div>
                     <div className="skills-section d-flex flex-wrap">
-                        <h2 className="col-xl-2">Skills</h2>
-                        <div className="skill-cards col-lg-10">
+                        <div className="col-xl-2 about-me">
+                            <h2 >About Me</h2>
+                            <p>Hey there! Welcome to my portfolio!</p>
+                            <img src="./public/me.jpg" alt="" className="profile-picture"></img>
+                            <p>I am a versatile full-stack web developer specializing in the MERN stack. With a keen eye for detail and a passion for crafting exceptional user experiences </p>
+                        </div>
+                        <div className="skill-cards col-lg-8">
                             <Skills />
                         </div>
                     </div>

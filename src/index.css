@@ -136,30 +136,39 @@ html body {
 main {
     margin-top: 5em;
 }
+.profile-picture {
+    border-radius: 50%;
+    width: 15em;
+}
 article {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
-/* .skills-section{
-    display: flex;
-    
-} */
-.skills-section h2{
+.about-me {
     text-align: center;
+    margin: 0 auto;
+    background-color: #6d98ba;
+    max-height: 30em;
+    border-radius: 25px;
 }
-.skill-cards{
+@media (min-width: 768px) {
+    .about-me {
+        margin-left: 5em;
+    }
+}
+.skill-cards {
     margin: 0 auto;
 }
 .carousels {
-    margin-top: 3em;
+    margin: 3em auto;
 }
 .carousels h3 {
     text-align: center;
 }
 #carousel {
     max-width: 22rem;
-    margin: auto;
+    margin: 0 auto;
 }
 .carousel-item {
     display: flex;
@@ -308,8 +317,6 @@ nav {
     padding: 0 30px 30px 30px;
 }
 
-
-
 .skillsList {
     width: 100%;
     height: auto;
@@ -357,7 +364,7 @@ nav {
     text-align: center;
 }
 
-.main-skills-container  h3 {
+.main-skills-container h3 {
     font-weight: 600;
     color: #210203;
     font-size: 2rem;
@@ -556,6 +563,3 @@ nav {
 .github:hover {
     background: rgb(13, 38, 54, 0.5) !important;
 }
-
-
-
