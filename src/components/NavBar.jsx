@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import DownloadIcon from "@mui/icons-material/Download";
 
 
+
 function Navbar() {
 	const navRef = useRef();
 
@@ -20,7 +21,7 @@ function Navbar() {
 
 	return (
 		<header>
-			<img src="../public/Logo.PNG"></img>
+			<img src="/src/assets/Logo.PNG"></img>
 			<nav ref={navRef}>
 				<a href="/#">Projects</a>
 				<a href="/#">Contact</a>
