@@ -8,7 +8,7 @@ import Node from "./Logos/Node.png";
 import git from "./Logos/git.png";
 import github from "./Logos/github.png";
 import firebase from "./Logos/firebase.png";
-import PostgreSQL from "./Logos/postgreSQL.png";
+import PostgreSQL from "./Logos/PostgreSQL.png";
 import ExpressJS from "./Logos/ExpressJS.png";
 
 
