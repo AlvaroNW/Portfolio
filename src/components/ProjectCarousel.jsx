@@ -11,8 +11,8 @@ function ProjectCarousel() {
             <Carousel.Item className="carousel-item" interval={5000}>
                 <img
                     className="d-block w-100"
-                    src="public\Beehive.PNG"
-                    alt="Beehive Joint Investing Project"
+                    src="./public/Beehive.PNG"
+                    alt="./Beehive Joint Investing Project"
                 />
                 <Carousel.Caption id="carousel-caption1">
                     <p>
@@ -33,7 +33,7 @@ function ProjectCarousel() {
             <Carousel.Item interval={2000}>
                 <img
                     className="d-block w-100"
-                    src="public\Cooking.PNG"
+                    src="./public/Cooking.PNG"
                     alt="Cooking in Style Project"
                 />
                 <Carousel.Caption id="carousel-caption2" >
