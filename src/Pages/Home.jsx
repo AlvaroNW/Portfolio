@@ -12,6 +12,7 @@ export default function Home() {
                             <h2 >About Me</h2>
                             <p>Hey there! Welcome to my portfolio!</p>
                             <img src="./public/me.jpg" alt="" className="profile-picture"></img>
+                            <br/><br/>
                             <p>I am a versatile full-stack web developer specializing in the MERN stack. With a keen eye for detail and a passion for crafting exceptional user experiences </p>
                         </div>
                         <div className="skill-cards col-lg-8">

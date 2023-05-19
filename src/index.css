@@ -147,10 +147,11 @@ article {
 }
 .about-me {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 5em;
     background-color: #6d98ba;
     max-height: 30em;
     border-radius: 25px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 @media (min-width: 768px) {
     .about-me {
@@ -162,6 +163,7 @@ article {
 }
 .carousels {
     margin: 3em auto;
+    
 }
 .carousels h3 {
     text-align: center;
@@ -169,6 +171,7 @@ article {
 #carousel {
     max-width: 22rem;
     margin: 0 auto;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
 }
 .carousel-item {
     display: flex;
