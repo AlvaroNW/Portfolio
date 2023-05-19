@@ -1,5 +1,7 @@
 import Carousel from "react-bootstrap/Carousel";
 import { BsCodeSlash } from "react-icons/bs";
+import Beehive from "../assets/Beehive.png"
+import Cooking from "../assets/Cooking.png"
 
 
 
@@ -11,8 +13,8 @@ function ProjectCarousel() {
             <Carousel.Item className="carousel-item" interval={5000}>
                 <img
                     className="d-block w-100"
-                    src="../public/Beehive.png"
-                    alt="../Beehive Joint Investing Project"
+                    src={Beehive}
+                    alt="Beehive Joint Investing Project"
                 />
                 <Carousel.Caption id="carousel-caption1">
                     <p>
@@ -33,7 +35,7 @@ function ProjectCarousel() {
             <Carousel.Item interval={2000}>
                 <img
                     className="d-block w-100"
-                    src="../public/Cooking.PNG"
+                    src={Cooking}
                     alt="Cooking in Style Project"
                 />
                 <Carousel.Caption id="carousel-caption2" >
