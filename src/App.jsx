@@ -3,6 +3,7 @@ import ProjectCarousel from "./components/ProjectCarousel";
 import NavBar from "./components/NavBar";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "./index.css";
+import Navbar from "./components/NavBar";
 
 const theme = createTheme({
     palette: {
@@ -16,9 +17,10 @@ function App() {
     return (
         <div id="app-container">
             <nav>
-                <ThemeProvider theme={theme}>
+                {/* <ThemeProvider theme={theme}>
                     <NavBar />
-                </ThemeProvider>
+                </ThemeProvider> */}
+                <Navbar />
             </nav>
             <main className="mx-auto">
                 <section>
@@ -27,7 +29,7 @@ function App() {
                 </section>
                 <article>
                     <div className="d-flex flex-wrap">
-                        <div className="col-xl-2 carousels">
+                        <div className="col-xl-2 carousels project-section-text">
                             <h2>Projects</h2>
                             <p>
                                 Here you can find two types of projects: Group

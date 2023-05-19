@@ -157,7 +157,9 @@ article {
     margin: 0 auto;
     
 }
-
+.project-section-text{
+    text-align: center;
+}
 
 .carousel-button {
     box-sizing: border-box;
@@ -207,4 +209,89 @@ article {
     line-height: 1.5;
     max-width: 80%;
 
+}
+
+
+/* Navbar */
+
+
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 5em;
+	padding: 0 2rem;
+	background-color: #6D98BA;
+	color: #210203;
+    width: 100%;
+    
+}
+header img{
+    width: 6em;
+}
+
+nav a {
+	margin: 0 1rem;
+	color: #210203;
+	text-decoration: none;
+    font-size: 1.7em;
+}
+
+nav a:hover {
+	color: #9aadbf;
+}
+
+header .nav-btn {
+	padding: 5px;
+	cursor: pointer;
+	background: transparent;
+	border: none;
+	outline: none;
+	color:#210203;
+	visibility: hidden;
+	opacity: 0;
+	font-size: 1.8rem;
+    
+}
+
+header div,
+nav {
+	display: flex;
+	align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+	header .nav-btn {
+		visibility: visible;
+		opacity: 1;
+	}
+
+	header nav {
+		position: absolute;
+		top: -100vh;
+		left: 0;
+		height: 50%;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 1.5rem;
+		background-color: #6D98BA;
+		transition: 0.3s;
+	}
+
+	header .responsive_nav {
+		transform: translateY(100vh);
+	}
+
+	nav .nav-close-btn {
+		position: absolute;
+		top: 2rem;
+		right: 2rem;
+	}
+
+	nav a {
+		font-size: 1.7em;
+	}
 }
